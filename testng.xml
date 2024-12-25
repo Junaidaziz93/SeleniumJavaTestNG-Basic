@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="commonMethods.ExtentReportListeners" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="F:/Projects/SeleniumWithJava_Basic_Framework/src/test/java/DemoOrangeHRM/HomePageTest.java">
+        <classes>
+            <class name="DemoOrangeHRM.HomePageTest">
+                <methods>
+<!--                    <include name="verifyAutomobileTab"/>-->
+<!--                    <include name="verifyAdminTab"/>-->
+                    <include name="clickOnAutomobileTab"/>
+<!--                    <include name="enterEnginPerformance"/>-->
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
